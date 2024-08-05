@@ -39,6 +39,8 @@ for (int i = 1; i <= limit; i++)
         }
     }
 
+    /* One-liner: I am not attempting as it will be awful to read */
+
     if (text != "")
         Console.WriteLine(text);
     else
