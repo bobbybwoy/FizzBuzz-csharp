@@ -1,4 +1,8 @@
-﻿for (int i = 1; i <= 10000; i++)
+﻿Console.Write("Enter a number: ");
+
+int limit = Convert.ToInt32(Console.ReadLine());
+
+for (int i = 1; i <= limit; i++)
 {
     string text = "";
 
